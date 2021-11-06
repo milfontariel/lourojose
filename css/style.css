@@ -25,16 +25,16 @@ h3 {
 }
 
 .gaming-area {
-  width: 80vw;
-  height: 70vh;
   background-color: #fff;
   border-radius: 5px;
   display: flex;
-  padding: 40px 80px;
+  padding: 40px 40px;
+  margin: 0 250px;
   box-sizing: border-box;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: flex-start;
+  align-content: space-around;
+  gap: 60px;
 }
 
 .card {
@@ -64,7 +64,6 @@ h3 {
   gap: 10px;
   background: #009;
   border-radius: 5px;
-  transform: rotateY(180deg);
 }
 
 #cardName {
@@ -115,17 +114,16 @@ h3 {
   transform-style: preserve-3d;
 }
 
-/* #front-face {
+.girarFrente {
+  transform: rotateY(0deg) rotateX(-5deg) scale(1.2) !important;
+}
+.girarVerso {
+  transform: rotateY(-180deg) rotateX(5deg) scale(0.5);
+}
+
+#front-face {
   transform: rotateY(180deg);
 }
-
-#card:hover #front-face {
-  transform: rotateY(0deg);
-}
-
-#card:hover #back-face {
-  transform: rotateY(-180deg);
-} */
 
 .agiota {
   background: url(../assets/agiota.jpg);
@@ -156,43 +154,42 @@ h3 {
   background-size: cover;
 }
 
-#agiota,
 #agiota #containerImage,
 #agiota #cardName,
 #agiota #front-face {
   background: #a90000;
 }
-#arretado,
+
 #arretado #containerImage,
 #arretado #cardName,
 #arretado #front-face {
   background: #00a96c;
 }
-#atibaia,
+
 #atibaia #containerImage,
 #atibaia #cardName,
 #atibaia #front-face {
   background: #0076a9;
 }
-#bob,
+
 #bob #containerImage,
 #bob #cardName,
 #bob #front-face {
   background: #002fa9;
 }
-#comunista,
+
 #comunista #containerImage,
 #comunista #cardName,
 #comunista #front-face {
-  background: #5f00a9;
+  background: #2c2c2c;
 }
-#jacu,
+
 #jacu #containerImage,
 #jacu #cardName,
 #jacu #front-face {
   background: #9100a9;
 }
-#meurei,
+
 #meurei #containerImage,
 #meurei #cardName,
 #meurei #front-face {
