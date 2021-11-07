@@ -102,7 +102,7 @@ function girar(element) {
 				}
 				setTimeout(jogarNovamente, 500);
 				setTimeout(function(){
-					if(resposta == "sim"){
+					if(resposta == "sim" || resposta == "Sim"){
 						qtd = 0;
 						inicio = 0;
 						document.querySelector("ul").innerHTML = "";
