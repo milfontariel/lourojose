@@ -10,29 +10,21 @@
   <link href="https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/style.css">
-  <title>Louro José - The Card Game</title>
+  <title>Louro José - Memory Game</title>
 </head>
 
 <body>
   <div class="vinheta"></div>
-
-  <h1>LOURO JOSÉ</h1>
-
-  <button class="iniciar" onclick="iniciarGame(this)">
+  <h1>Memory Game: <span>Louro José Edition</span></h1>
+  <button class="iniciar" onclick="iniciarGame()">
     Iniciar
   </button>
-
+  <section>
+    <h1 class="time-gaming">0:0</h1>
+  </section>
   <section class="arena">
-    <ul class="gaming-area">
-
-    </ul>
-
+    <ul class="gaming-area"></ul>
   </section>
-
-  <section class="time-gaming">
-    <h1>00:02</h1>
-  </section>
-
   <script src="./js/script.js"></script>
 </body>
 
