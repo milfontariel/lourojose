@@ -1,4 +1,4 @@
-# lourojose
+# Memory Game: Louro José Edition
 Jogo da memória com tema do "louro josé".
 
 Tecnologias usadas: 
